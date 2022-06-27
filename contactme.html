@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <center>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact details</title>
+    </head>
+    <body>
+        <h2>Contact details of me </h2>
+        <table border="3px" cellpadding="10px">
+            <thead>
+            <tr>
+            <th>Mode</th>
+            <th>Contact Detail</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>Email</td>
+            <td>manikandanravi94@gmail.com</td>
+        </tr>
+            <tr>
+                <td>Mobile</td>
+                <td>9047070158</td>
+            </tr>
+        </table>
+    </body>
+</center>
+<br><br>
+<hr>
+<p><b>Please Enter your details to reply to your queries</b></p>
+<form action="mailto:manikandanravi94@gmail.com" method="Post" enctype="text/plain">
+
+    <label for="firstName">FirstName</label><br>
+    <input type="text" name="firstName"><br>
+    <label for="lastName">LastName</label><br>
+    <input type="text" name="lastName"><br>
+    <label for="Gender">Choose the Gender</label><br>
+    <input type="radio" name="Gender"  value ="male">
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" value="female">
+    <label for="female">female</label><br>
+    <legend>Choose country</legend>
+    <input type="checkbox" name="country">
+    <label for="india">India</label>
+    <input type="checkbox" name="country">
+    <label for="others">Other</label><br>
+    <label for="aboutYourself">About yourself</label><br>
+    <textarea name="aboutYourself" rows="5" cols="10"></textarea><br>
+    <input type="submit" value="submit your comments">
+</form>
+</html>
